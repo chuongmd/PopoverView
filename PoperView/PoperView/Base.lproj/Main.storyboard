@@ -78,30 +78,74 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f1J-gu-Cy5" userLabel="Like">
                                                 <rect key="frame" x="0.0" y="0.0" width="114.33333333333333" height="40"/>
-                                                <state key="normal" title="Like"/>
+                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="11"/>
+                                                <state key="normal" title=" Like" image="greyLike.png">
+                                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LCg-7e-3Jp" userLabel="Comment">
+                                                <rect key="frame" x="114.33333333333334" y="0.0" width="114.33333333333334" height="40"/>
+                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="11"/>
+                                                <state key="normal" title=" Comment" image="comment.png">
+                                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PKp-ex-WCL" userLabel="Share">
+                                                <rect key="frame" x="228.66666666666666" y="0.0" width="114.33333333333334" height="40"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                                <state key="normal" title=" Share" image="share.png">
+                                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="0GP-KB-VZ1"/>
+                                            <constraint firstAttribute="trailing" secondItem="PKp-ex-WCL" secondAttribute="trailing" id="3rg-kY-1ep"/>
                                             <constraint firstAttribute="bottom" secondItem="f1J-gu-Cy5" secondAttribute="bottom" id="40C-HF-aFa"/>
+                                            <constraint firstItem="PKp-ex-WCL" firstAttribute="leading" secondItem="LCg-7e-3Jp" secondAttribute="trailing" id="5Sg-qi-tTu"/>
+                                            <constraint firstAttribute="bottom" secondItem="PKp-ex-WCL" secondAttribute="bottom" id="EbB-GQ-cfk"/>
+                                            <constraint firstAttribute="bottom" secondItem="LCg-7e-3Jp" secondAttribute="bottom" id="aa3-RM-yKL"/>
+                                            <constraint firstItem="PKp-ex-WCL" firstAttribute="top" secondItem="9pi-me-jM8" secondAttribute="top" id="fth-uy-51Q"/>
                                             <constraint firstItem="f1J-gu-Cy5" firstAttribute="leading" secondItem="9pi-me-jM8" secondAttribute="leading" id="hds-sA-g0T"/>
                                             <constraint firstItem="f1J-gu-Cy5" firstAttribute="top" secondItem="9pi-me-jM8" secondAttribute="top" id="jPn-xn-Xlm"/>
+                                            <constraint firstItem="LCg-7e-3Jp" firstAttribute="width" secondItem="9pi-me-jM8" secondAttribute="width" multiplier="1:3" id="sA0-st-veq"/>
+                                            <constraint firstItem="LCg-7e-3Jp" firstAttribute="leading" secondItem="f1J-gu-Cy5" secondAttribute="trailing" id="sgP-fz-0LD"/>
+                                            <constraint firstItem="LCg-7e-3Jp" firstAttribute="top" secondItem="9pi-me-jM8" secondAttribute="top" id="vVV-zc-TxG"/>
                                             <constraint firstItem="f1J-gu-Cy5" firstAttribute="width" secondItem="9pi-me-jM8" secondAttribute="width" multiplier="1:3" id="yY7-gZ-WKA"/>
                                         </constraints>
                                     </view>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="avatar2.png" translatesAutoresizingMaskIntoConstraints="NO" id="yll-eI-ggI">
+                                        <rect key="frame" x="16" y="540" width="60" height="60"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="60" id="34y-VE-PHW"/>
+                                            <constraint firstAttribute="width" secondItem="yll-eI-ggI" secondAttribute="height" id="Ytd-c6-Y9f"/>
+                                        </constraints>
+                                    </imageView>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Write a comment ..." minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FD7-pU-qL2">
+                                        <rect key="frame" x="86" y="540" width="273" height="60"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
+                                    <constraint firstItem="yll-eI-ggI" firstAttribute="top" secondItem="9pi-me-jM8" secondAttribute="bottom" constant="10" id="1H6-Pi-pgh"/>
                                     <constraint firstItem="aZV-Pb-y0K" firstAttribute="top" secondItem="CGe-HS-PNm" secondAttribute="bottom" constant="8" id="5gw-yL-NBb"/>
+                                    <constraint firstItem="FD7-pU-qL2" firstAttribute="leading" secondItem="yll-eI-ggI" secondAttribute="trailing" constant="10" id="CCA-C0-siQ"/>
+                                    <constraint firstAttribute="trailing" secondItem="FD7-pU-qL2" secondAttribute="trailing" constant="16" id="CaI-CN-jw1"/>
                                     <constraint firstItem="9pi-me-jM8" firstAttribute="top" secondItem="GzL-Ni-KvJ" secondAttribute="bottom" constant="5" id="Jyo-uB-wJq"/>
                                     <constraint firstItem="CGe-HS-PNm" firstAttribute="top" secondItem="eq8-zE-XAp" secondAttribute="top" constant="8" id="O6p-kZ-uog"/>
                                     <constraint firstItem="9pi-me-jM8" firstAttribute="leading" secondItem="eq8-zE-XAp" secondAttribute="leading" constant="16" id="OHa-2r-sNN"/>
+                                    <constraint firstItem="FD7-pU-qL2" firstAttribute="top" secondItem="9pi-me-jM8" secondAttribute="bottom" constant="10" id="Opc-Sj-zxF"/>
                                     <constraint firstAttribute="trailing" secondItem="CGe-HS-PNm" secondAttribute="trailing" constant="16" id="RbQ-9L-o1o"/>
                                     <constraint firstItem="CGe-HS-PNm" firstAttribute="leading" secondItem="eq8-zE-XAp" secondAttribute="leading" constant="16" id="Scz-8J-hyW"/>
                                     <constraint firstAttribute="trailing" secondItem="aZV-Pb-y0K" secondAttribute="trailing" constant="16" id="UlJ-xn-zvd"/>
                                     <constraint firstItem="GzL-Ni-KvJ" firstAttribute="leading" secondItem="eq8-zE-XAp" secondAttribute="leading" constant="16" id="ZpZ-To-sQA"/>
+                                    <constraint firstItem="yll-eI-ggI" firstAttribute="leading" secondItem="eq8-zE-XAp" secondAttribute="leading" constant="16" id="aKH-ey-CQF"/>
                                     <constraint firstItem="aZV-Pb-y0K" firstAttribute="leading" secondItem="eq8-zE-XAp" secondAttribute="leading" constant="16" id="j8X-oi-aSQ"/>
+                                    <constraint firstItem="FD7-pU-qL2" firstAttribute="height" secondItem="yll-eI-ggI" secondAttribute="height" id="lea-aM-i4v"/>
                                     <constraint firstAttribute="trailing" secondItem="GzL-Ni-KvJ" secondAttribute="trailing" constant="16" id="oyu-X2-e2s"/>
                                     <constraint firstItem="GzL-Ni-KvJ" firstAttribute="top" secondItem="aZV-Pb-y0K" secondAttribute="bottom" id="vnf-hG-EhQ"/>
                                     <constraint firstAttribute="trailing" secondItem="9pi-me-jM8" secondAttribute="trailing" constant="16" id="zG5-iZ-iTs"/>
@@ -117,6 +161,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="spM-vX-Ln1"/>
                     </view>
+                    <connections>
+                        <outlet property="likeButton" destination="f1J-gu-Cy5" id="ceb-nG-Ffs"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -125,6 +172,10 @@
     </scenes>
     <resources>
         <image name="avatar1.png" width="80" height="78"/>
+        <image name="avatar2.png" width="80" height="80"/>
+        <image name="comment.png" width="30" height="30"/>
+        <image name="greyLike.png" width="40" height="40"/>
         <image name="img.png" width="800" height="864"/>
+        <image name="share.png" width="30" height="30"/>
     </resources>
 </document>
