@@ -13,17 +13,11 @@
 		4B49BF8D21EC75DD004C3BED /* PoperView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4B49BF8B21EC75DD004C3BED /* PoperView.xcdatamodeld */; };
 		4B49BF8F21EC75E3004C3BED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B49BF8E21EC75E3004C3BED /* Assets.xcassets */; };
 		4B49BF9221EC75E3004C3BED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B49BF9021EC75E3004C3BED /* LaunchScreen.storyboard */; };
-		4B49BFA621EC7B19004C3BED /* wow.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B49BF9A21EC7B17004C3BED /* wow.png */; };
 		4B49BFA721EC7B19004C3BED /* greyLike.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B49BF9B21EC7B18004C3BED /* greyLike.png */; };
-		4B49BFA821EC7B19004C3BED /* angry.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B49BF9C21EC7B18004C3BED /* angry.png */; };
 		4B49BFA921EC7B19004C3BED /* img.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B49BF9D21EC7B18004C3BED /* img.png */; };
 		4B49BFAA21EC7B19004C3BED /* avatar2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B49BF9E21EC7B18004C3BED /* avatar2.png */; };
 		4B49BFAB21EC7B19004C3BED /* avatar1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B49BF9F21EC7B18004C3BED /* avatar1.png */; };
-		4B49BFAC21EC7B19004C3BED /* haha.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B49BFA021EC7B18004C3BED /* haha.png */; };
 		4B49BFAD21EC7B19004C3BED /* comment.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B49BFA121EC7B18004C3BED /* comment.png */; };
-		4B49BFAE21EC7B19004C3BED /* love.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B49BFA221EC7B18004C3BED /* love.png */; };
-		4B49BFAF21EC7B19004C3BED /* sad.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B49BFA321EC7B18004C3BED /* sad.png */; };
-		4B49BFB021EC7B19004C3BED /* like.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B49BFA421EC7B19004C3BED /* like.png */; };
 		4B49BFB121EC7B19004C3BED /* share.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B49BFA521EC7B19004C3BED /* share.png */; };
 /* End PBXBuildFile section */
 
@@ -36,17 +30,11 @@
 		4B49BF8E21EC75E3004C3BED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B49BF9121EC75E3004C3BED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4B49BF9321EC75E3004C3BED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4B49BF9A21EC7B17004C3BED /* wow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wow.png; sourceTree = "<group>"; };
 		4B49BF9B21EC7B18004C3BED /* greyLike.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greyLike.png; sourceTree = "<group>"; };
-		4B49BF9C21EC7B18004C3BED /* angry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = angry.png; sourceTree = "<group>"; };
 		4B49BF9D21EC7B18004C3BED /* img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img.png; sourceTree = "<group>"; };
 		4B49BF9E21EC7B18004C3BED /* avatar2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = avatar2.png; sourceTree = "<group>"; };
 		4B49BF9F21EC7B18004C3BED /* avatar1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = avatar1.png; sourceTree = "<group>"; };
-		4B49BFA021EC7B18004C3BED /* haha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = haha.png; sourceTree = "<group>"; };
 		4B49BFA121EC7B18004C3BED /* comment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = comment.png; sourceTree = "<group>"; };
-		4B49BFA221EC7B18004C3BED /* love.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = love.png; sourceTree = "<group>"; };
-		4B49BFA321EC7B18004C3BED /* sad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sad.png; sourceTree = "<group>"; };
-		4B49BFA421EC7B19004C3BED /* like.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = like.png; sourceTree = "<group>"; };
 		4B49BFA521EC7B19004C3BED /* share.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = share.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -95,18 +83,12 @@
 		4B49BF9921EC7AFE004C3BED /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				4B49BF9C21EC7B18004C3BED /* angry.png */,
 				4B49BF9F21EC7B18004C3BED /* avatar1.png */,
 				4B49BF9E21EC7B18004C3BED /* avatar2.png */,
 				4B49BFA121EC7B18004C3BED /* comment.png */,
 				4B49BF9B21EC7B18004C3BED /* greyLike.png */,
-				4B49BFA021EC7B18004C3BED /* haha.png */,
 				4B49BF9D21EC7B18004C3BED /* img.png */,
-				4B49BFA421EC7B19004C3BED /* like.png */,
-				4B49BFA221EC7B18004C3BED /* love.png */,
-				4B49BFA321EC7B18004C3BED /* sad.png */,
 				4B49BFA521EC7B19004C3BED /* share.png */,
-				4B49BF9A21EC7B17004C3BED /* wow.png */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -170,17 +152,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B49BF9221EC75E3004C3BED /* LaunchScreen.storyboard in Resources */,
-				4B49BFAC21EC7B19004C3BED /* haha.png in Resources */,
 				4B49BF8F21EC75E3004C3BED /* Assets.xcassets in Resources */,
 				4B49BF8A21EC75DD004C3BED /* Main.storyboard in Resources */,
-				4B49BFB021EC7B19004C3BED /* like.png in Resources */,
-				4B49BFA621EC7B19004C3BED /* wow.png in Resources */,
-				4B49BFAE21EC7B19004C3BED /* love.png in Resources */,
 				4B49BFB121EC7B19004C3BED /* share.png in Resources */,
-				4B49BFAF21EC7B19004C3BED /* sad.png in Resources */,
 				4B49BFA921EC7B19004C3BED /* img.png in Resources */,
 				4B49BFA721EC7B19004C3BED /* greyLike.png in Resources */,
-				4B49BFA821EC7B19004C3BED /* angry.png in Resources */,
 				4B49BFAA21EC7B19004C3BED /* avatar2.png in Resources */,
 				4B49BFAD21EC7B19004C3BED /* comment.png in Resources */,
 				4B49BFAB21EC7B19004C3BED /* avatar1.png in Resources */,
@@ -342,8 +318,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YB4Z3CB3J8;
 				INFOPLIST_FILE = PoperView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -361,8 +338,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YB4Z3CB3J8;
 				INFOPLIST_FILE = PoperView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
